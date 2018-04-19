@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <!-- dodatkowe tresci -->
+    <meta name="description" content="Strona codziennego użytku">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel ="shortcut icon" href="#">
+
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+    </script>
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- koniec -->
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Complete Bootstrap 4 Website Layout</title>
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+<!--   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+  
+  <link rel="stylesheet/less" href="css/style.less" type="text/css">
+  <script src="js/less.js" type="text/javascript"></script>
+</head>
+<body>
+
+<header class="container-fluid  header header-image" id="home">
+
+<div class="wrapper">
+<div class="row">
+<div class="col-12">
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">
+    <img src="img/logo.png" class="logo" alt="">
+  </a>
+
+  <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+<!--         <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar4">
+        <span class="navbar-toggler-icon"></span>
+    </button> -->
+
+  <div class="collapse navbar-collapse header-nav__position-inline header-nav-collapse__mobile" id="navbarNav">
+
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home <!-- <span class="sr-only">(current)</span> --></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Our">Our Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>  
+    </ul>
+
+  </div>
+
+  </nav>
+</div>
+</div>
+
+  <div class="row header-main-title justify-content-around">
+    <div class="col-md-8 text-center">
+      <h1>IT’S OUR LANDING PAGE</h1>
+      <p>A landing page design & coding from scratch</p>
+    </div>
+
+    <div class="row justify-content-center header_scroll">
+      <div class="col-md-2 d-flex justify-content-center scrollarea">
+
+        <a href="#Our"><img src="img/scrolldown.png" alt="click to scroll down a bit" class="scrolldown"/></a>
+
+        <!-- zwykłe przewijanie o określoną ilość pixeli -->
+<!--         <img src="img/scrolldown.png" alt="click to scroll down a bit" class="scrolldown"/> -->
+      </div>
+    </div>
+
+  </div>
+
+
+</div>
+
+
+</header>
+
+<!-- one third section -->
+<
+<section class="about" id="Our">
+  <div class="container">
+    
+    <div class="row">
+      <div class="col text-center">
+        <h1>OUR SERVICES</h1>
+      </div>
+    </div>
+
+    <!-- tutaj dodać sekcję z podziałem na trzy -->
+    <div class="row about-one-third">
+
+      <div class="col-md-4">
+        <div class="iconAlign"><img src="img/carticon.png" alt="" class="blocicon"/>
+        </div>
+        <h2>Purshase</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisic
+               ing elit, sed do eiusmod tempor incididunt ut lab
+               ore et dolore magna aliqua. Ut enim ad minim ve
+               niam, quis nostrud exercitation ullamco laboris ni
+               si ut aliquip ex ea commodo consequat. Duis aut
+               e irure dolor in reprehenderit in voluptate velit .</p>
+          <a href="#">Learn more</a>
+      </div>
+
+      <div class="col-md-4">
+        <div class="iconAlign"><img src="img/carticon.png" alt="" class="blocicon"/>
+        </div>
+        <h2>Purshase</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisic
+               ing elit, sed do eiusmod tempor incididunt ut lab
+               ore et dolore magna aliqua. Ut enim ad minim ve
+               niam, quis nostrud exercitation ullamco laboris ni
+               si ut aliquip ex ea commodo consequat. Duis aut
+               e irure dolor in reprehenderit in voluptate velit .</p>
+          <a href="#">Learn more</a>
+      </div>
+
+      <div class="col-md-4">
+        <div class="iconAlign"><img src="img/carticon.png" alt="" class="blocicon"/>
+        </div>
+        <h2>Purshase</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisic
+               ing elit, sed do eiusmod tempor incididunt ut lab
+               ore et dolore magna aliqua. Ut enim ad minim ve
+               niam, quis nostrud exercitation ullamco laboris ni
+               si ut aliquip ex ea commodo consequat. Duis aut
+               e irure dolor in reprehenderit in voluptate velit .</p>
+          <a href="#">Learn more</a>
+      </div>      
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- fixed pictures -->
+<section class="fixed-section">
+
+  <div class="container">
+  
+    <div class="row text-center">
+      <div class="col">
+        <h1 class="fixed-section__title">ACHIEVEMENTS</h1>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-4 fixed-section__achievements">
+        <span>+2500</span>
+        <h3>SALES</h3>
+      </div>
+
+      <div class="col-md-4 fixed-section__achievements">
+        <span>+2500</span>
+        <h3>SALES</h3>
+      </div>
+
+      <div class="col-md-4 fixed-section__achievements">
+        <span>+2500</span>
+        <h3>SALES</h3>
+      </div>      
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- newsletter -->
+<section class="newsletter">
+  <div class="container">
+
+    <div class="row">
+      <div class="col newsletter-title">
+        <h1>NEWSLETTER</h1>
+        <P>And receive our news and premium offers</P>
+      </div>
+    </div>
+
+  
+
+  <div class="row">
+    <div class="col-md-4">
+      <input type="text" placeholder="Your name"/>
+    </div>
+
+     <div class="col-md-4">
+      <input type="text" placeholder="Your name"/>
+    </div>
+    
+    <div class="col-md-4">
+      <input type="text" placeholder="Your name"/>
+    </div>
+
+  </div>
+</div>
+
+
+</section>
+
+<section class="contact" id="contact">
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col">
+        <h1 class="contact-title text-center">Contact</h1>
+      </div>
+    </div>
+
+    <div class="row contact_maps">
+      <div class="col">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10018.982881569917!2d17.005164141501!3d51.113151537116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fc2012a14a83f%3A0x81fcc67fc826a5db!2zTXV6ZXVtIFdzcMOzxYJjemVzbmU!5e0!3m2!1spl!2spl!4v1523173031556" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-md-4">
+        <i class="fas fa-phone-square contact-faIcon"></i>
+        <a class="contact-href" href="tel:123-456-7890">740
+        700 555</a>
+      </div>
+
+      <div class="col-md-4">
+        <i class="fas fa-phone-square contact-faIcon"></i>
+        <a class="contact-href" href="mailto:email@me.com"> email@me.com </a>
+      </div>
+
+      <div class="col-md-4">
+        <i class="fas fa-phone-square contact-faIcon"></i>
+        <a class="contact-href" href="https://www.google.pl/maps/place/Google+Wroc%C5%82aw/@51.1500801,16.4430595,9z/data=!4m8!1m2!2m1!1smaps!3m4!1s0x470fe9db9612718b:0x51c4357d8827c4b2!8m2!3d51.1175823!4d17.0415385?dcr=0"> Wrocław Krzycka 2 </a>
+      </div>
+      
+  </div>
+
+
+</section>
+
+<footer class="text-center">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-4 footer-contact">
+        <div class="footer-contact_href"><a href="#home">Home</a></div>
+      </div>
+
+      <div class="col-md-4 footer-contact">
+        <div class="footer-contact_href"><a href="#Our">Our Services</a></div>
+      </div>
+
+      <div class="col-md-4 footer-contact">
+        <div class="footer-contact_href"><a href="#contact">Contact</a></div>
+      </div>
+
+    </div>
+  </div>
+
+</footer>
+  <div class="container-fluid text-center">
+    <div class="author">
+      <h6>Code Ukasz | 04.2018</h6>
+    </div>
+  </div>
+
+
+  <!-- płynne przewijanie -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+    </script>
+
+    <script type="text/javascript">
+      // przewijanie strony
+    $(document).ready(function() { 
+ 
+  $('a[href^="#"]').on('click', function(event) {
+  
+    var target = $( $(this).attr('href') );
+  
+    if( target.length ) {
+      event.preventDefault();
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+    }
+   });
+ 
+});
+    </script>
+
+
+<!-- przewijanie o określoną ilość pikseli -->
+<!-- <script type="text/javascript">
+  $(document).ready(function() {
+    $('.scrolldown').click(function(event){
+        $('html, body').animate({scrollTop: '+=700px'}, 800);
+    });
+    return false;
+});
+</script> -->
